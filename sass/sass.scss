@@ -2,8 +2,47 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+h3{
+    color: #2D2D2D;
+}
 header{
    h3{
     font-family: 'cinzel',serif;
    } 
+ 
+
+}
+.personal-info{
+    background-color: #F4F4F4;
+    img{
+        width:200px;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+     @media (max-width:480px){
+        img{
+        width:90px;
+        height: 90px;   
+        }
+
+}
+    @media (min-width:481px) and (max-width:767px){
+       img{
+        width:100px;
+        height: 100px;   
+        }
+       
+}
+@media (min-width:768px) and (max-width:991px){
+    
+img{
+        width:150px;
+        height: 150px;   
+        }
+}
+
+
+    
 }
